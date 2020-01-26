@@ -1,0 +1,37 @@
+/* Styles */
+:global {
+  html, body, #app {
+    height: 100vh;
+    overflow: hidden;
+  }
+  body {
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.4em;
+    color: whitesmoke;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-weight: 300;
+  }
+  .row-here {
+    //height: inherit;
+  }
+
+  .column-here {
+    .row-here {
+      //height: auto;
+    }
+  }
+  /*demo 4 */
+  .header, .footer {
+    color: #fff;
+    background-color: #666;
+    -webkit-transition: font-size 0.5s linear;
+    transition: font-size 0.5s linear;
+  }
+  .nav {
+    width: 180px;
+  }
+
+}
